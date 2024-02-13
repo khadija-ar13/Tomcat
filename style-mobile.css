@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    /* Pour les écrans mobiles (largeur maximale de 768px) */
+
+    /* Afficher les cartes des filières verticalement */
+    .card {
+        display: block;
+        width: 100%;
+        
+    }
+
+    /* Réorganiser les éléments de la section "Contactez-nous" */
+    .contact-info {
+        flex-direction: column; /* Afficher les éléments en colonne */
+    }
+
+    .left-info, .right-info {
+        width: 100%; /* Chaque élément occupe la largeur complète */
+    }
+}

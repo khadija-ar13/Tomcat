@@ -1,0 +1,8 @@
+/* section filieres */
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+    .card {
+        display: block; /* Faire en sorte que les cartes s'affichent verticalement */
+        
+    }
+}
